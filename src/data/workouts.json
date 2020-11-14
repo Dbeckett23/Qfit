@@ -1,0 +1,42 @@
+[
+  {
+    "id": "522694a0-1c44-11eb-adc1-0242ac120002",
+    "name": "workout 0",
+    "tasks": [ 
+      {
+        "type": "exercise",
+        "name": "push-ups",
+        "time": 30
+      },
+      {
+        "type": "break",
+        "time": 10
+      },
+      {
+        "type": "exercise",
+        "name": "standing squats",
+        "time": 30
+      }
+    ]
+  },
+  {
+    "id": "52269810-1c44-11eb-adc1-0242ac120002",
+    "name": "workout 1",
+    "tasks": [ 
+      {
+        "type": "exercise",
+        "name": "burpees",
+        "time": 30
+      },
+      {
+        "type": "exercise",
+        "name": "jumping jacks",
+        "time": 30
+      },
+      {
+        "type": "break",
+        "time": 10
+      }
+    ]
+  }
+]
