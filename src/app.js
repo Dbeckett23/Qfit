@@ -1,13 +1,20 @@
 import React, {Component} from 'react';
-import {
-  Text,
-} from 'react-native';
 
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import WorkoutsList from './screens/WorkoutsList';
+
+const Stack = createStackNavigator();
 
 class QFit extends Component {
   render() {
     return (
-      <Text>Hello World</Text>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName='Workouts'>
+          <Stack.Screen name='Workouts' component={WorkoutsList} />
+        </Stack.Navigator>
+      </NavigationContainer>
     );
   }
 };
